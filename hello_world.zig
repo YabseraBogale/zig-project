@@ -1,5 +1,5 @@
 const std = @import("std");
 
-fn main() !void {
-    print("Hello World");
+pub fn main() !void {
+    std.debug.print("Hello World", .{});
 }
